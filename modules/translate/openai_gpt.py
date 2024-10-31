@@ -96,7 +96,7 @@ langs = [
 
 class TranslateOpenAIGPT(TranslateBase):
     def init(self, cfg: dict):
-        self.client = OpenAI(api_key=cfg['openai_api_key'])
+        self.client = OpenAI(api_key=cfg['openai_api_key'], base_url=cfg['openai_base_url'])
 
     def get_languages(self):
         return langs

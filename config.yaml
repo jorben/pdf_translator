@@ -1,6 +1,7 @@
 translator:
-  type: google_translate #openai
+  type: openai #openai
   openai_api_key: YOUR-KEY-GOES-HERE
+  openai_base_url: YOUR-OPENAI-BASE-URL
 
 layout:
   type: 'dit'
