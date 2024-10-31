@@ -13,4 +13,4 @@ ocr:
   device: 'cuda'
 
 font:
-  type: 'simple'
+  type: 'heiti' #simple heiti

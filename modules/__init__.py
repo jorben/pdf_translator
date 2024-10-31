@@ -33,5 +33,10 @@ def load_font_engine(cfg: dict):
         engine = SimpleFont()
         engine.init(cfg)
         return engine
+    elif cfg['type'] == 'heiti':
+        from .font.heiti import HeitiFont
+        engine = HeitiFont()
+        engine.init(cfg)
+        return engine
     
-    raise("unknown ocr engine")
+    raise("unknown font engine")
