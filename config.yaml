@@ -2,6 +2,7 @@ translator:
   type: openai #openai
   openai_api_key: YOUR-KEY-GOES-HERE
   openai_base_url: YOUR-OPENAI-BASE-URL
+  openai_model_name: gpt-4o-mini
 
 layout:
   type: 'dit'
